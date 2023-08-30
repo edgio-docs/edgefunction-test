@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "edgio:build": "edgio build",
-    "edgio:deploy": "edgio deploy",
+    "edgio:deploy": "edgio deploy --property=examples --team=edgio-community --environment=production",
     "edgio:dev": "edgio dev"
   },
   "keywords": [],
