@@ -1,0 +1,18 @@
+{
+  "name": "ef-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@edgio/cli": "^7.2.2",
+    "@edgio/core": "^7.2.2",
+    "@edgio/devtools": "^7.2.2",
+    "@edgio/prefetch": "^7.2.2"
+  }
+}
