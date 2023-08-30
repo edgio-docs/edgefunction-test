@@ -7,6 +7,7 @@ export async function handleHttpRequest(request, context) {
     // body: 'foo',
     edgio: {
       origin: 'postman',
+      timeout: 10,
     },
   });
 
