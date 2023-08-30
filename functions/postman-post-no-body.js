@@ -7,14 +7,13 @@ export async function handleHttpRequest(request, context) {
     // body: 'foo',
     edgio: {
       origin: 'postman',
-      timeout: 10,
     },
   });
 
-  const content = await response.json();
+  const content = await response.text();
 
   context.respondWith(
-    new Response(JSON.stringify(content), {
+    new Response(content, {
       headers: {
         'content-type': 'application/json; charset=utf-8',
       },
