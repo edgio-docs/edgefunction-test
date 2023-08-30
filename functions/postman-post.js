@@ -4,7 +4,7 @@ export async function handleHttpRequest(request, context) {
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ edgio: 'posting from edgio' }),
+    body: 'foo',
     edgio: {
       origin: 'postman',
     },
